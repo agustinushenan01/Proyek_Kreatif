@@ -16,6 +16,10 @@ int main()
         }
         else 
         {
+            do{
+                cout<<"coba ulang"<<endl;
+            }
+            while(paspor<=2)
             cout<<"Paspor Anda Salah."<<endl;
         }
         
