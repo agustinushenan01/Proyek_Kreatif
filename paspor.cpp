@@ -2,31 +2,30 @@
 using namespace std;
 int main()
 {
-    string Nama;
-    string paspor;
-    cout<<"NAMA : ";
-    cin>>Nama;
-    if (Nama=="Agung_Henan")
+    string Paspor;
+    cout<<"Paspor : ";
+    cin>>Paspor;
+    if (Paspor=="unima_fatek_ti_21")
     {
-        cout<<"Masukan Paspor : " ;
-        cin>>paspor;
-        if (paspor=="qwerty")
-        {
-            cout<<"Selamat Datang MR. Agung Henan"<<endl;
-        }
-        else 
-        {
-            do{
-                cout<<"coba ulang"<<endl;
-            }
-            while(paspor<=2)
-            cout<<"Paspor Anda Salah."<<endl;
-        }
-        
+        string NAMA, PRODI, TELEPON;
+        int nim;
+        cout<<"==========DATA MAHASISWA=========="<<endl;          // Masukan
+        cout<<"\n\nDATA";
+        cout<<"\nNama Anda      : ";cin>>NAMA;
+        cout<<"\nNIM            : ";cin>>nim;
+        cout<<"\nProdi          : ";cin>>PRODI;
+        cout<<"\nNO.Telepon     : ";cin>>TELEPON;
+        cout<<"\n\n\n   ----  IDENTITAS ANDA  ----   "<<endl;      // Keluaran
+        cout<<"\nNama             : "<<NAMA<<endl;
+        cout<<"NIM              : "<<nim<<endl;
+        cout<<"Prodi            : "<<PRODI<<endl;
+        cout<<"NO Telepon       : "<<TELEPON<<endl;
     }
     else
     {
-        cout<<"Terima Kasih Sudah Berkunjung"<<endl;
+        cout<<"Maaf Paspor Anda salah"<<endl;
     }
-
+    
+    
 }
+
